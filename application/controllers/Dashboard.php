@@ -7,6 +7,7 @@ class Dashboard extends CI_Controller
     {
         parent::__construct();
         check_login();
+        $this->load->model('project_model');
     }
     public function index()
     {
@@ -37,6 +38,7 @@ class Dashboard extends CI_Controller
     public function laporan()
     {
         $data['title'] = 'Laporan';
+        $data['laporan'] = $this->project_model->tampil_laporan();
         $data['user'] = $this->db->get_where('user', [
             'email' => $this->session->userdata('email')
         ])->row_array();

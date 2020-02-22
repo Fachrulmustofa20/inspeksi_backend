@@ -82,6 +82,22 @@
                                     <tbody class="text-center">
 
 
+                                        <?php $no = 1; ?>
+                                        <?php foreach ($laporan as $row) : ?>
+
+                                            <tr>
+                                                <td><?= $no++; ?></td>
+                                                <td><?= $row['tgl']; ?></td>
+                                                <td><?= $row['nama_pngmd']; ?></td>
+                                                <td><?= $row['nama_po']; ?></td>
+                                                <td><?= $row['no_kendaraan']; ?></td>
+                                                <td><?= $row['no_stuk']; ?></td>
+                                                <td>
+                                                    <a href="" class="btn btn-success btn-sm">Detail</a>
+                                                </td>
+                                            </tr>
+
+                                        <?php endforeach; ?>
 
 
                                     </tbody>
