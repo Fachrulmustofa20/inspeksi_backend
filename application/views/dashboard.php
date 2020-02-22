@@ -129,39 +129,25 @@
                                             </tr>
                                         </thead>
                                         <tbody>
-                                            <tr>
-                                                <td>1</td>
-                                                <td>G 1234 A</td>
-                                                <td>Eichmann</td>
-                                                <td>3/2/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>2</td>
-                                                <td>G 2345 SH</td>
-                                                <td>Prohaska</td>
-                                                <td>2/1/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>3</td>
-                                                <td>G 1290 SM</td>
-                                                <td>Rogahn</td>
-                                                <td>2/1/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>4</td>
-                                                <td>G 1230 SK</td>
-                                                <td>Rogahn</td>
-                                                <td>1/2/2020</td>
-                                            </tr>
-                                            <tr>
-                                                <td>5</td>
-                                                <td>G 5433 SJ</td>
-                                                <td>Rogahn</td>
-                                                <td>1/2/2020</td>
-                                            </tr>
+
+                                            <?php $no = 1; ?>
+                                            <?php foreach ($laporan as $row) : ?>
+
+                                                <tr>
+                                                    <td><?= $no++; ?></td>
+                                                    <td><?= $row['no_kendaraan']; ?></td>
+                                                    <td><?= $row['nama_pngmd']; ?></td>
+                                                    <td><?= $row['tgl']; ?></td>
+
+
+
+                                                </tr>
+
+                                            <?php endforeach; ?>
+
                                         </tbody>
                                     </table>
-                                    <a href="laporan.php" class="btn btn-success btn-sm">Lihat Selengkapnya <i data-feather="arrow-right"></i></a>
+                                    <a href="<?= base_url('dashboard/laporan') ?>" class="btn btn-success btn-sm">Lihat Selengkapnya <i data-feather="arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
