@@ -828,7 +828,7 @@
                                         Catatan
                                     </div>
                                     <div class="card-body">
-                                        <textarea class="form-control" id="catatan" name="catatan" rows="3"></textarea>
+                                        <textarea class="form-control" id="catatan" name="catatan" rows="1"></textarea>
                                     </div>
                                 </div>
                             </div>
