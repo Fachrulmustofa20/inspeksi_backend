@@ -93,7 +93,7 @@
                                     </div><!-- /.modal-dialog -->
                                 </div><!-- /.modal -->
 
-                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signup-modal"><i data-feather="user-plus" class="feather-icon"></i> Tambah Pengguna</button>
+                                <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#signup-modal"><i class="fas fa-user-plus fa-sm"></i> Tambah</button>
 
                                 <?php $no = 0;
                                 foreach ($users as $u) : $no++; ?>
@@ -188,8 +188,8 @@
                                             <td class="border-top-0 text-muted font-14 text-center"><?= $u['role'] ?></td>
                                             <td class="border-top-0 text-muted font-14 text-center"><?= date('d F Y', $u['date_created']); ?></td>
                                             <td class="border-top-0 text-center">
-                                                <button data-toggle="modal" data-target="#modal-edit<?= $u['id']; ?>" class="btn btn-warning btn-sm text-white"><i data-feather="edit" class="feather-icon"></i> Update</button>
-                                                <a onclick="deleteConfirm('<?= base_url('user_management/delete/' . $u['id']); ?>')" href="#!" class="btn btn-danger btn-sm text-white"><i data-feather="trash-2" class="feather-icon"></i> Hapus</a>
+                                                <button data-toggle="modal" data-target="#modal-edit<?= $u['id']; ?>" class="btn btn-warning btn-sm text-white"><i class="fas fa-edit fa-sm"></i> Update</button>
+                                                <a onclick="deleteConfirm('<?= base_url('user_management/delete/' . $u['id']); ?>')" href="#!" class="btn btn-danger btn-sm text-white"><i class="fas fa-trash fa-sm"></i> Hapus</a>
                                             </td>
                                         </tr>
                                     <?php endforeach; ?>

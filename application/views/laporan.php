@@ -59,6 +59,7 @@
             <!-- multi-column ordering -->
             <div class="row">
                 <div class="col-lg-12">
+                    <?= $this->session->flashdata('message'); ?>
                     <div class="card">
                         <div class="card-body">
                             <div class="row mb-3">
@@ -87,13 +88,13 @@
 
                                             <tr>
                                                 <td><?= $no++; ?></td>
-                                                <td><?= $row['tgl']; ?></td>
+                                                <td><?= date('d-m-Y', $row['tgl']); ?></td>
                                                 <td><?= $row['nama_pngmd']; ?></td>
                                                 <td><?= $row['nama_po']; ?></td>
                                                 <td><?= $row['no_kendaraan']; ?></td>
                                                 <td><?= $row['no_stuk']; ?></td>
                                                 <td>
-                                                    <a href="<?= base_url('form/detail') ?>" class="btn btn-success btn-sm">Detail</a>
+                                                    <a href="<?= base_url(); ?>form/detail/<?= $row['id']; ?>" class="btn btn-success btn-sm">Detail</a>
                                                 </td>
                                             </tr>
 

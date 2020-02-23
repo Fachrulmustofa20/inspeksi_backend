@@ -34,7 +34,7 @@
                 <?php } ?>
 
                 <li class="list-divider"></li>
-                <li class="nav-small-cap"><span class="hide-menu">ANOTHER</span></li>
+                <li class="nav-small-cap"><span class="hide-menu">Lainnya</span></li>
                 <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="<?= base_url('auth/logout'); ?>" aria-expanded="false"><i data-feather="log-out" class="feather-icon"></i><span class="hide-menu">Logout</span></a></li>
             </ul>
         </nav>
