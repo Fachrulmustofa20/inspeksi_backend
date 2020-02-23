@@ -69,12 +69,21 @@
                             <div class="col-sm-10">
 
                                 <div class="form-group">
-                                    <input type="radio" name="answer[1]" value="Terminal">
-                                    Terminal
-                                    <input type="radio" name="answer[1]" value="Pool">
-                                    Pool
-                                    <input type="radio" name="answer[1]" value="Lainnya">
-                                    Lainnya
+                                    <div class="text">
+
+                                        <input type="radio" name="answer[1]" value="Terminal">
+                                        Terminal
+                                    </div>
+                                    <div class="text">
+
+                                        <input type="radio" name="answer[1]" value="Pool">
+                                        Pool
+                                    </div>
+                                    <div class="text">
+
+                                        <input type="radio" name="answer[1]" value="Lainnya">
+                                        Lainnya
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -134,14 +143,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Jenis Trayek</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[3]" value="AKAP">
-                                        AKAP
-                                        <input type="radio" name="answer[3]" value="AKDP">
-                                        AKDP
-                                        <input type="radio" name="answer[3]" value="PARIWISA">
-                                        PARIWISA
-                                        <input type="radio" name="answer[3]" value="MPU">
-                                        MPU
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[3]" value="AKAP">
+                                            AKAP
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[3]" value="AKDP">
+                                            AKDP
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[3]" value="PARIWISA">
+                                            PARIWISA
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[3]" value="MPU">
+                                            MPU
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -172,14 +193,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Kartu Uji/STUK</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[4]" value="ada">
-                                        Ada,berlaku
-                                        <input type="radio" name="answer[4]" value="tdkberlaku">
-                                        Tidak berlaku
-                                        <input type="radio" name="answer[4]" value="tidakada">
-                                        Tidak ada
-                                        <input type="radio" name="answer[4]" value="tdksesuai">
-                                        Tidak sesuai fisik
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[4]" value="ada">
+                                            Ada,berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[4]" value="tdkberlaku">
+                                            Tidak berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[4]" value="tidakada">
+                                            Tidak ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[4]" value="tdksesuai">
+                                            Tidak sesuai fisik
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -189,14 +222,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">KP. Reguler</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[5]" value="ada">
-                                        Ada,berlaku
-                                        <input type="radio" name="answer[5]" value="tdkberlaku">
-                                        Tidak berlaku
-                                        <input type="radio" name="answer[5]" value="tidakada">
-                                        Tidak ada
-                                        <input type="radio" name="answer[5]" value="tdksesuai">
-                                        Tidak sesuai fisik
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[5]" value="ada">
+                                            Ada,berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[5]" value="tdkberlaku">
+                                            Tidak berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[5]" value="tidakada">
+                                            Tidak ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[5]" value="tdksesuai">
+                                            Tidak sesuai fisik
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -206,14 +251,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">KP. Cadangan</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[6]" value="ada">
-                                        Ada,berlaku
-                                        <input type="radio" name="answer[6]" value="tdkberlaku">
-                                        Tidak berlaku
-                                        <input type="radio" name="answer[6]" value="tidakada">
-                                        Tidak ada
-                                        <input type="radio" name="answer[6]" value="tdksesuai">
-                                        Tidak sesuai fisik
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[6]" value="ada">
+                                            Ada,berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[6]" value="tdkberlaku">
+                                            Tidak berlaku
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[6]" value="tidakada">
+                                            Tidak ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[6]" value="tdksesuai">
+                                            Tidak sesuai fisik
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -224,14 +281,26 @@
                                 <div class="col-sm-10">
 
                                     <div class="form-group">
-                                        <input type="radio" name="answer[7]" value="Aumum">
-                                        A umum
-                                        <input type="radio" name="answer[7]" value="B1umum">
-                                        B1 umum
-                                        <input type="radio" name="answer[7]" value="B2umum">
-                                        B2 umum
-                                        <input type="radio" name="answer[7]" value="simtdksesuai">
-                                        Sim tidak sesuai
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[7]" value="Aumum">
+                                            A umum
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[7]" value="B1umum">
+                                            B1 umum
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[7]" value="B2umum">
+                                            B2 umum
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[7]" value="simtdksesuai">
+                                            Sim tidak sesuai
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -254,14 +323,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Dekat</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[8]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[8]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[8]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[8]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[8]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[8]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[8]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[8]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -269,14 +350,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Jauh</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[9]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[9]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[9]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[9]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[9]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[9]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[9]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[9]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -287,14 +380,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Depan</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[10]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[10]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[10]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[10]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[10]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[10]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[10]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[10]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -302,14 +407,26 @@
                                 <legend class="col-form-label col-sm-2 pt-0">Belakang</legend>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[11]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[11]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[11]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[11]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[11]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[11]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[11]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[11]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -320,14 +437,26 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[12]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[12]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[12]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[12]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[12]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[12]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[12]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[12]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -338,14 +467,26 @@
                             <div class="row ml-3">
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[13]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[13]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[13]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[13]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[13]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[13]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[13]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[13]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -358,10 +499,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[14]" value="berfungsi">
-                                        berfungsi
-                                        <input type="radio" name="answer[14]" value="noberfungsi">
-                                        Tidak berfungsi
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[14]" value="berfungsi">
+                                            berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[14]" value="noberfungsi">
+                                            Tidak berfungsi
+                                        </div>
 
                                     </div>
 
@@ -375,10 +522,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[15]" value="berfungsi">
-                                        berfungsi
-                                        <input type="radio" name="answer[15]" value="noberfungsi">
-                                        Tidak berfungsi
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[15]" value="berfungsi">
+                                            berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[15]" value="noberfungsi">
+                                            Tidak berfungsi
+                                        </div>
 
                                     </div>
 
@@ -394,10 +547,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[16]" value="baik">
-                                        Baik
-                                        <input type="radio" name="answer[16]" value="buruk">
-                                        Buruk
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[16]" value="baik">
+                                            Baik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[16]" value="buruk">
+                                            Buruk
+                                        </div>
 
                                     </div>
 
@@ -413,14 +572,26 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[17]" value="Semualaik">
-                                        Semua laik
-                                        <input type="radio" name="answer[17]" value="tdklaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[17]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[17]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[17]" value="Semualaik">
+                                            Semua laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[17]" value="tdklaik">
+                                            Tidak laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[17]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[17]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
 
                                 </div>
@@ -430,14 +601,26 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[18]" value="Semualaik">
-                                        Semua laik
-                                        <input type="radio" name="answer[18]" value="tdklaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[18]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[18]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[18]" value="Semualaik">
+                                            Semua laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[18]" value="tdklaik">
+                                            Tidak laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[18]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[18]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
 
                                 </div>
@@ -452,10 +635,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[19]" value="adafungsi">
-                                        Ada dan berfungsi
-                                        <input type="radio" name="answer[19]" value="tidakadafungsi">
-                                        Tidak ada/tidak berfungsi
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[19]" value="adafungsi">
+                                            Ada dan berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[19]" value="tidakadafungsi">
+                                            Tidak ada/tidak berfungsi
+                                        </div>
 
                                     </div>
 
@@ -480,12 +669,21 @@
                             <div class="row ml-3">
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[20]" value="adafungsi">
-                                        Ada dan berfungsi
-                                        <input type="radio" name="answer[20]" value="tidakfungsi">
-                                        Tidak berfungsi
-                                        <input type="radio" name="answer[20]" value="tidakada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[20]" value="adafungsi">
+                                            Ada dan berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[20]" value="tidakfungsi">
+                                            Tidak berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[20]" value="tidakada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -500,14 +698,26 @@
                                 <label class="ml-3">Depan</label>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[21]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[21]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[21]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[21]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[21]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[21]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[21]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[21]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
 
                                 </div>
@@ -516,14 +726,26 @@
                                 <label class="ml-3">Belakang</label>
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[22]" value="nyala">
-                                        Semua menyala
-                                        <input type="radio" name="answer[22]" value="nonyala">
-                                        Tidak menyala
-                                        <input type="radio" name="answer[22]" value="kanan">
-                                        Kanan
-                                        <input type="radio" name="answer[22]" value="kiri">
-                                        Kiri
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[22]" value="nyala">
+                                            Semua menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[22]" value="nonyala">
+                                            Tidak menyala
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[22]" value="kanan">
+                                            Kanan
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[22]" value="kiri">
+                                            Kiri
+                                        </div>
                                     </div>
 
                                 </div>
@@ -538,12 +760,21 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[23]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[23]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[23]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[23]" value="adasesuai">
+                                            Ada dan sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[23]" value="nosesuai">
+                                            Tidak sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[23]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -557,12 +788,22 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[24]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[24]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[24]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[24]" value="adasesuai">
+                                            Ada dan sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[24]" value="nosesuai">
+                                            Tidak sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[24]" value="tdkada">
+                                            Tidak ada
+                                        </div>
+
 
                                     </div>
 
@@ -576,12 +817,21 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[25]" value="adasesuai">
-                                        Ada dan sesuai
-                                        <input type="radio" name="answer[25]" value="nosesuai">
-                                        Tidak sesuai
-                                        <input type="radio" name="answer[25]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[25]" value="adasesuai">
+                                            Ada dan sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[25]" value="nosesuai">
+                                            Tidak sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[25]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -596,10 +846,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[26]" value="sesuai">
-                                        sesuai
-                                        <input type="radio" name="answer[26]" value="nosesuai">
-                                        Tidak sesuai
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[26]" value="sesuai">
+                                            sesuai
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[26]" value="nosesuai">
+                                            Tidak sesuai
+                                        </div>
 
                                     </div>
 
@@ -617,12 +873,21 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[27]" value="adalaik">
-                                        Ada dan laik
-                                        <input type="radio" name="answer[27]" value="nolaik">
-                                        Tidak laik
-                                        <input type="radio" name="answer[27]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[27]" value="adalaik">
+                                            Ada dan laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[27]" value="nolaik">
+                                            Tidak laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[27]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -636,10 +901,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[28]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[28]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[28]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[28]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -654,10 +925,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[29]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[29]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[29]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[29]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -672,10 +949,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[30]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[30]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[30]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[30]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -689,12 +972,21 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[31]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[31]" value="tdkfungsi">
-                                        Tidak berfungsi
-                                        <input type="radio" name="answer[31]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[31]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[31]" value="tdkfungsi">
+                                            Tidak berfungsi
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[31]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -711,10 +1003,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[32]" value="adalaik">
-                                        Ada dan laik
-                                        <input type="radio" name="answer[32]" value="tdklaik">
-                                        Tidak laik
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[32]" value="adalaik">
+                                            Ada dan laik
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[32]" value="tdklaik">
+                                            Tidak laik
+                                        </div>
 
                                     </div>
 
@@ -728,10 +1026,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[33]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[33]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[33]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[33]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -746,10 +1050,16 @@
 
                                 <div class="col-sm-10">
                                     <div class="form-group">
-                                        <input type="radio" name="answer[34]" value="ada">
-                                        Ada
-                                        <input type="radio" name="answer[34]" value="tdkada">
-                                        Tidak ada
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[34]" value="ada">
+                                            Ada
+                                        </div>
+                                        <div class="text">
+
+                                            <input type="radio" name="answer[34]" value="tdkada">
+                                            Tidak ada
+                                        </div>
 
                                     </div>
 
@@ -766,6 +1076,7 @@
                     <div class="card-body">
 
                         <div class="form-group">
+
                             <label>Nama Penyidik</label>
                             <input type="text" class="form-control" name="nama_penyidik">
                         </div>
@@ -795,6 +1106,9 @@
                                             <input type="radio" name="answer[35]" value="ada">
                                             Diijinkan Operasional
                                         </div>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[35]" value="ada">
+                                            Perbaiki/Peringatan </div>
 
 
                                     </div>
@@ -808,8 +1122,12 @@
                                     <div class="card-body">
 
                                         <div class="form-group">
-                                            <input type="radio" name="answer[36]" value="ada">
+                                            <input type="radio" name="answer[35]" value="ada">
                                             Dilarang Operasional
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="radio" name="answer[35]" value="ada">
+                                            Tilang dan Dilarang Operasional
                                         </div>
 
 
@@ -823,7 +1141,7 @@
                                         Catatan
                                     </div>
                                     <div class="card-body">
-                                        <textarea class="form-control" id="catatan" name="catatan" rows="1"></textarea>
+                                        <textarea class="form-control" id="catatan" name="catatan" rows="3"></textarea>
                                     </div>
                                 </div>
                             </div>
