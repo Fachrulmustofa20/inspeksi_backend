@@ -10,7 +10,7 @@ class Form extends CI_Controller
         $this->load->model('project_model');
     }
 
-    public function input_inspeksi()
+    public function index()
     {
         $data['title'] = 'Input Inspeksi';
         $data['user'] = $this->db->get_where('user', [

@@ -13,7 +13,7 @@
                 <li class="nav-small-cap"><span class="hide-menu">MENU</span></li>
 
                 <li class="sidebar-item">
-                    <a class="sidebar-link" href="<?= base_url('form/input_inspeksi'); ?>" aria-expanded="false">
+                    <a class="sidebar-link" href="<?= base_url('form'); ?>" aria-expanded="false">
                         <i data-feather="edit" class="feather-icon"></i>
                         <span class="hide-menu">Input Inspeksi</span>
                     </a>

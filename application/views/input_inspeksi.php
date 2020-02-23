@@ -64,24 +64,16 @@
                     <div class="card-body">
                         <!-- input tanggal otomatis keisi pada sistem -->
 
-
-                        <div class="form-group row">
-                            <label class="col-sm-2 col-form-label">Hari/Tanggal</label>
-                            <div class="col-sm-10">
-                                <input type="date" class="form-control" name="tanggal">
-                            </div>
-                        </div>
-
                         <div class="row">
                             <legend class="col-form-label col-sm-2 pt-0">Lokasi</legend>
                             <div class="col-sm-10">
 
                                 <div class="form-group">
-                                    <input type="radio" name="answer[1]" value="1">
+                                    <input type="radio" name="answer[1]" value="Terminal">
                                     Terminal
-                                    <input type="radio" name="answer[1]" value="1">
+                                    <input type="radio" name="answer[1]" value="Pool">
                                     Pool
-                                    <input type="radio" name="answer[1]" value="1">
+                                    <input type="radio" name="answer[1]" value="Lainnya">
                                     Lainnya
                                 </div>
                             </div>
@@ -90,33 +82,36 @@
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label">Nama Lokasi</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" id="nama_lokasi" name="nama_lokasi">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label">Nama Pengemudi</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" id="nama_pengemudi" name="nama_pengemudi">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label">Umur</label>
                             <div class="col-sm-10">
-                                <input type="number" class="form-control">
+                                <input type="number" class="form-control" id="umur" name="umur">
                             </div>
                         </div>
                         <div class="form-group row">
                             <label class="col-sm-2 col-form-label">Nama PO</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control">
+                                <input type="text" class="form-control" id="nama_po" name="nama_po">
                             </div>
                         </div>
 
                         <fieldset class="form-group">
                             <div class="row">
                                 <legend class="col-form-label col-sm-2 pt-0">Nomor Kendaraan</legend>
+                                <div class="col-sm-4">
+                                    <input type="text" class="form-control" id="nomor_kendaraan" name="nomor_kendaraan">
+                                </div>
 
-                                <div class="col-sm-7 mt-2">
+                                <div class="col-sm-5 mt-2">
                                     <div class="form-group">
                                         <input type="radio" name="answer[2]" value="Reguler">
                                         Reguler
