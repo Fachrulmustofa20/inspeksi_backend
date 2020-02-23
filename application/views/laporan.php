@@ -93,7 +93,7 @@
                                                 <td><?= $row['no_kendaraan']; ?></td>
                                                 <td><?= $row['no_stuk']; ?></td>
                                                 <td>
-                                                    <a href="<?= base_url('dashboard/detail') ?>" class="btn btn-success btn-sm">Detail</a>
+                                                    <a href="<?= base_url('form/detail') ?>" class="btn btn-success btn-sm">Detail</a>
                                                 </td>
                                             </tr>
 
