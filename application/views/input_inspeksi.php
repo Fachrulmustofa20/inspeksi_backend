@@ -795,10 +795,7 @@
                                             <input type="radio" name="answer[35]" value="ada">
                                             Diijinkan Operasional
                                         </div>
-                                        <div class="form-group">
-                                            <input type="radio" name="answer[35]" value="ada">
-                                            Peringatan/Perbaiki
-                                        </div>
+
 
                                     </div>
                                 </div>
@@ -815,10 +812,7 @@
                                             Dilarang Operasional
                                         </div>
 
-                                        <div class="form-group">
-                                            <input type="radio" name="answer[36]" value="ada">
-                                            Tilang dan Dilarang Operasional
-                                        </div>
+
 
                                     </div>
                                 </div>
@@ -829,7 +823,7 @@
                                         Catatan
                                     </div>
                                     <div class="card-body">
-                                        <textarea class="form-control" id="catatan" name="catatan" rows="3"></textarea>
+                                        <textarea class="form-control" id="catatan" name="catatan" rows="1"></textarea>
                                     </div>
                                 </div>
                             </div>

@@ -147,7 +147,7 @@
 
                                         </tbody>
                                     </table>
-                                    <a href="<?= base_url('dashboard/laporan') ?>" class="btn btn-success btn-sm">Lihat Selengkapnya <i data-feather="arrow-right"></i></a>
+                                    <a href="<?= base_url('form/laporan') ?>" class="btn btn-success btn-sm">Lihat Selengkapnya <i data-feather="arrow-right"></i></a>
                                 </div>
                             </div>
                         </div>
