@@ -42,7 +42,30 @@
 
     <!-- Chart JS -->
     <script src="<?= base_url('assets'); ?>/vendor/libs/chart.js/dist/Chart.min.js"></script>
-    <script src="<?= base_url('assets'); ?>/dist/js/doughnut.js"></script>
+    <script>
+        var ctx = document.getElementById("doughnut").getContext('2d');
+        var myChart = new Chart(ctx, {
+            type: 'doughnut',
+            data: {
+                labels: ["Laik Jalan", "Tidak Laik Jalan"],
+                datasets: [{
+                    backgroundColor: [
+                        "rgba(116, 96, 238,1)",
+                        "rgba(255, 60, 166,1)"
+                    ],
+                    data: [<?= $totalLaik; ?>,
+                        <?= $totaltdkLaik; ?>
+                    ]
+                }]
+            },
+            options: {
+                title: {
+                    display: true,
+                    text: 'Kendaraan Laik Jalan vs Tidak Laik Jalan'
+                }
+            }
+        });
+    </script>
 
 
     <script type="text/javascript">

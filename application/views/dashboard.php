@@ -36,7 +36,7 @@
                             <div class="d-flex d-lg-flex d-md-block align-items-center">
                                 <div>
                                     <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-dark mb-1 font-weight-medium">236</h2>
+                                        <h2 class="text-dark mb-1 font-weight-medium"><?= $totalLaik; ?></h2>
 
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yg Laik Jln</h6>
@@ -52,7 +52,7 @@
                             <div class="d-flex d-lg-flex d-md-block align-items-center">
                                 <div>
                                     <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-dark mb-1 font-weight-medium">100</h2>
+                                        <h2 class="text-dark mb-1 font-weight-medium"><?= $totaltdkLaik; ?></h2>
 
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Kendaraan Yg Tdk Laik Jln</h6>
@@ -68,7 +68,7 @@
                             <div class="d-flex d-lg-flex d-md-block align-items-center">
                                 <div>
                                     <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-primary mb-1 font-weight-medium">336</h2>
+                                        <h2 class="text-primary mb-1 font-weight-medium"><?= $totalAll; ?></h2>
 
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Total Kendaraan</h6>
@@ -84,7 +84,7 @@
                             <div class="d-flex d-lg-flex d-md-block align-items-center">
                                 <div>
                                     <div class="d-inline-flex align-items-center">
-                                        <h2 class="text-primary mb-1 font-weight-medium">336</h2>
+                                        <h2 class="text-primary mb-1 font-weight-medium"><?= $totalUser; ?></h2>
 
                                     </div>
                                     <h6 class="text-muted font-weight-normal mb-0 w-100 text-truncate">Total Pengguna</h6>
@@ -131,13 +131,13 @@
                                         <tbody>
 
                                             <?php $no = 1; ?>
-                                            <?php foreach ($laporan as $row) : ?>
+                                            <?php foreach ($laporan_limit as $row) : ?>
 
                                                 <tr>
                                                     <td><?= $no++; ?></td>
                                                     <td><?= $row['no_kendaraan']; ?></td>
                                                     <td><?= $row['nama_pngmd']; ?></td>
-                                                    <td><?= $row['tgl']; ?></td>
+                                                    <td><?= date('d-m-Y', $row['tgl']); ?></td>
 
 
 
