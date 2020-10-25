@@ -102,8 +102,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `name`, `email`, `image`, `password`, `nip`, `role_id`, `is_active`, `date_created`) VALUES
-(1, 'Fachrul Mustofa', 'fachrulmustofa100@gmail.com', 'man.png', '$2y$10$aBKkpJsoyyWyLWDAlZp8EenHHF9QraBs4DAUGcohqj2VuCvCo3N26', '321312433510', 1, 1, 1582270346),
-(2, 'Fachrul Mustofa', 'fachrulmustofa300@gmail.com', 'default.png', '$2y$10$F.FWnJYtYKw61jeryNltkObldnXP2toKmreQlWG2DTiy.yBshOfEa', '242342354', 2, 1, 1582274377);
+(1, 'Fachrul Mustofa', 'fachrulmustofa@gmail.com', 'man.png', '$2y$10$aBKkpJsoyyWyLWDAlZp8EenHHF9QraBs4DAUGcohqj2VuCvCo3N26', '321312433510', 1, 1, 1582270346),
+(2, 'Fachrul Mustofa', 'fachrulmustofa1@gmail.com', 'default.png', '$2y$10$F.FWnJYtYKw61jeryNltkObldnXP2toKmreQlWG2DTiy.yBshOfEa', '242342354', 2, 1, 1582274377);
 
 -- --------------------------------------------------------
 
