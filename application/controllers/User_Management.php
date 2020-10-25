@@ -80,8 +80,8 @@ class User_Management extends CI_Controller
         $config = [
             'protocol'  => 'smtp',
             'smtp_host' => 'ssl://smtp.googlemail.com',
-            'smtp_user' => 'developerapik@gmail.com', //ganti dengan email aktif
-            'smtp_pass' => 'fachrul13', //password email
+            'smtp_user' => '****@gmail.com', //ganti dengan email aktif
+            'smtp_pass' => '*****', //password email
             'smtp_port' => 465,
             'mailtype'  => 'html',
             'charset'   => 'utf-8',
